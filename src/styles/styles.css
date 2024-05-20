@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend", sans-serif;
+}
+
+.input-field {
+  padding-bottom: 1em;
+}
+.input-field label {
+  display: block;
+  padding-bottom: 0.4em;
+  font-size: 14px;
+}
+.input-field input {
+  border: 1px solid #dedede;
+  border-radius: 1px;
+  width: 100%;
+  padding: 0.5em;
+  outline: none;
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #f4f4f4;
+}
+.my-btn {
+  width: 100%;
+  margin: 1.5em 0 2em 0;
+  background-color: #695eed !important;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.5em;
+  font-size: 0.9em;
+  border-radius: 8px;
+  max-height: 40px;
+}
+.my-btn:disabled {
+  background-color: #d8d6d6 !important;
+  cursor: not-allowed;
+  color: #5f5f5f;
+}
+
+.sign-up {
+  margin-bottom: 1em;
+}
+.sign-up h2 {
+  font-size: 1.8em;
+}
+.sign-up a {
+  font-size: 1em;
+  font-weight: 600;
+  padding-left: 4px;
+  text-decoration: 3px underline #b3b3b3;
+}
+.PhoneInputInput {
+  border: 1px solid #bdbbbb;
+  outline: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+.PhoneInputCountryIcon {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+/* Admin page styles */
